@@ -1,0 +1,20 @@
+.footer {
+  bottom:0;
+  position:fixed;
+  z-index:150;
+  height:4rem;
+  width: 100%;
+  border-top: thick double #bc601c;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+
+.footerElement{
+  padding: 1rem;
+  height: 2rem;
+  width: 5%;
+  margin: 0rem 2rem;
+  text-align: center;
+}

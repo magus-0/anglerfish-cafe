@@ -1,0 +1,12 @@
+.btn {
+    background-color: transparent;
+    color: #ff8225;
+    border: none;
+    transition: .4s;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    cursor:default;
+}

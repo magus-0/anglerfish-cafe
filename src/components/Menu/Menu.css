@@ -1,0 +1,47 @@
+.menuContainer {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #141414;
+    color: #ff8225;
+    width: 75%;
+    min-width: 25rem;
+    border: .2rem solid;
+    border-color: #324c5f;
+    justify-content: center;
+    padding-top: .5rem;
+}
+
+.menuContentsGrid {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    border-top: 3px dotted;
+    border-color: #324c5f;
+    background-color: #10181e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    justify-items: center;
+}
+
+.menuContent {
+    background-color: #30383a;
+    border: 1px solid;
+    height: 3rem;
+    width: 80%;
+    padding-top: 1rem;
+}
+
+.itemName {
+    color: silver;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.itemPrice {
+    font-size: smaller;
+}
