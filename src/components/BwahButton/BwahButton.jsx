@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { randomChoice } from "../../helpers/helper";
-import { bwahs } from "../../constants/bwahs";
-import Btn from "../Btn/GenericBtn";
+import { randomChoice } from "../../helpers/helper.js";
+import { bwahs } from "../../constants/bwahs.js";
+import Btn from "../Btn/GenericBtn.jsx";
 import '../Btn/Btn.css'
 
 

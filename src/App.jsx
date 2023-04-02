@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import Btn from './components/Btn/GenericBtn';
-import BwahButton from './components/BwahButton/BwahButton';
-import PageFooter from './components/footer/PageFooter';
+import Btn from './components/Btn/GenericBtn.jsx';
+import BwahButton from './components/BwahButton/BwahButton.jsx';
+import PageFooter from './components/footer/PageFooter.jsx';
 import { FaSun } from 'react-icons/fa'
-import { generateMenu } from './helpers/helper';
-import Menu from './components/Menu/Menu';
+import { generateMenu } from './helpers/helper.js';
+import Menu from './components/Menu/Menu.jsx';
 
 function App() {
   const [foodMenu, setFoodMenu] = useState({});
