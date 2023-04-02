@@ -37,7 +37,6 @@ function App() {
             menuType==="drink" && <Menu menu={drinksMenu} title="Drink Menu"/>
           )
         }
-        {/* <FaSun className='spinningIcon' size="20" /> */}
       </div>
       <PageFooter>
         <Btn onClick={()=>setMenuType("food")}>food</Btn>
