@@ -12,7 +12,7 @@ const Menu = ({ menu, title }) => {
       <h2>Items and prices are quantum.</h2>
       <div className="menuContentsGrid">
         {
-          menuItems.map([item, price] => {
+          menuItems.map( ([item, price]) => {
             return(
               <div className='menuContent' key={uuidv4()}>
                 <div className='itemName'>{item}</div>
